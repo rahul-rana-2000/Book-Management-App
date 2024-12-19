@@ -11,7 +11,7 @@ const AppRouter = () => {
   const [books, setBooks] = useLocalStorage('books', [])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Book-Management-App">
       <div>
         <Header />
         <div className="main-content">
